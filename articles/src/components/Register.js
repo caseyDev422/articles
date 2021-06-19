@@ -1,0 +1,13 @@
+import { React, Component } from 'react';
+
+export default class Register extends Component {
+    // eslint-disable-next-line no-useless-constructor
+    constructor(props) {
+        super(props);
+    }
+    render() {
+        return(
+            <p>Register works!</p>
+        )        
+    }
+}
